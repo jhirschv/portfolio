@@ -23,12 +23,12 @@ const LeftSide = () => {
 
   return (
     <div className="relative lg:sticky top-0 w-full lg:w-1/2 h-[60vh] lg:h-screen sm:p-4 z-10 flex flex-col items-center justify-center py-[10%]">
-      <div className='flex flex-col w-full p-4 md:p-16 sm:p-0'>
+      <div className='flex flex-col w-full p-4 md:p-10 sm:p-0'>
         <div className='w-full lg:h-16'>
           <TypewriterEffect words={words} />
         </div>
         <p className="lg:mt-2 text-2xl font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Full Stack Developer</p>
-        <div className='w-full'>
+        <div className='hidden lg:flex w-full'>
           <ul class="mt-4 w-max">
             <li>
               <Link class="group flex items-center py-3 active" to="section1" smooth={true} duration={500}>
@@ -42,17 +42,17 @@ const LeftSide = () => {
                 <span class="nav-text text-lg font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link class="group flex items-center py-3" to="section2" smooth={true} duration={500}>
                 <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                 <span class="nav-text text-lg font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Education</span>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         
       </div>
-      <div className='absolute bottom-8 right-10 flex items-center gap-4 mt-4 text-muted-foreground pr-12'>
+      <div className='absolute bottom-8 right-0 md:right-10 flex items-center gap-4 mt-4 text-muted-foreground pr-12'>
         <a
           href="/John Hirsch Developer.pdf"
           target="_blank"
