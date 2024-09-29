@@ -45,55 +45,117 @@ const RightSide = () => {
           <h1 className="text-2xl font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">PROJECTS</h1>
           <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
           <Card className='border-0 rounded-[22px]'> 
-              <CardHeader>
+              <CardHeader className='pb-2'>
                   <CardTitle>Train.io</CardTitle>
                   <CardDescription>A better fitness app</CardDescription>
               </CardHeader>
               <CardContent className='flex flex-col gap-4 text-muted-foreground'>
-                  <img src='/train.io_image.jpeg' alt="Train.io" className="w-1/2 h-auto border-solid border-2 rounded-md" />
-                  <p>Developed an online training platform featuring an artifical intelligence powered workout creator. 
-                  <span className='hidden md:inline'> Features a comprehensive workout journal and progress visalization. Real time messaging for trainer - client interaction.</span>
-                  </p>
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Django</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">OpenAI API</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Heroku</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/train.io_image.jpeg' alt="Train.io" className="w-full h-auto border-solid border-2 rounded-md" />
+                  <p className='text-sm'>Developed an online training platform featuring an artifical intelligence powered workout creator, personal training system, and a workout journal.</p>
               </CardContent>
               <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
                 <a href="https://trainio-liart.vercel.app/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
                 Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                 </a>
-                <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
               </CardFooter>
           </Card>
           </BackgroundGradient>
           <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
-          <Card className='border-0 rounded-[22px]'>
-              <CardHeader>
-                  <CardTitle>PyCloud</CardTitle>
-                  <CardDescription>Learn python, challange others, cloud coding platform.</CardDescription>
-              </CardHeader>
-              <CardContent className=''>
-              <img src='/PyCloud_img.png' alt="Train.io" className="w-1/2 h-auto border-solid border-2 rounded-md" />
-              </CardContent>
-              <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
-                <div className='flex items-center gap-2'>
-                Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </div>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
-              </CardFooter>
-          </Card>
-          </BackgroundGradient>
-          <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
-          <Card className='border-0 rounded-[22px]'>
-              <CardHeader>
+          <Card className='border-0 rounded-[22px]'> 
+              <CardHeader className='pb-2'>
                   <CardTitle>BestTech</CardTitle>
-                  <CardDescription>Make the best purchase.</CardDescription>
+                  <CardDescription>Make the best purchase</CardDescription>
               </CardHeader>
-              <CardContent className=''>
-              <img src='/BestTech.png' alt="Train.io" className="w-1/2 h-auto border-2 border-solid border-2 rounded-md" />
+              <CardContent className='flex flex-col gap-4 text-muted-foreground'>
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Java</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">SpringBoot</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">MySQL</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Vercel</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/BestTech.png' alt="besttech image" className="w-full h-auto border-solid border-2 rounded-md" />
+                  <p className='text-sm'>Designed a modern eCommerce website that features a Machine learning product recommendation system and an admin dashboard. 
+                  </p>
               </CardContent>
               <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
-                <div className='flex items-center gap-2'>
+                <a href="https://besttech-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
                 Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </div>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
+                </a>
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
+              </CardFooter>
+          </Card>
+          </BackgroundGradient>
+          <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
+          <Card className='border-0 rounded-[22px]'> 
+              <CardHeader className='pb-2'>
+                  <CardTitle>Discourse</CardTitle>
+                  <CardDescription>Chat Anywhere, Anytime</CardDescription>
+              </CardHeader>
+              <CardContent className='flex flex-col gap-4 text-muted-foreground'>
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Django</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Websockets</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JWT Authentication</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/discourse.png' alt="Discouse image" className="w-full h-auto border-solid border-2 rounded-md" />
+                    <p className='text-sm'>Built a real time messaging app with Django channels, websockets, and React. 
+                  </p>
+              </CardContent>
+              <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
+                <a href="https://discourse-chat-app-frontend.vercel.app/home/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
+                Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
               </CardFooter>
           </Card>
           </BackgroundGradient>
@@ -122,13 +184,32 @@ const RightSide = () => {
           <h1 className="text-2xl font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">PROJECTS</h1>
           <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
           <Card className='border-0 rounded-[22px]'> 
-              <CardHeader>
+              <CardHeader className='pb-2'>
                   <CardTitle>Train.io</CardTitle>
                   <CardDescription>A better fitness app</CardDescription>
               </CardHeader>
               <CardContent className='flex flex-col gap-4 text-muted-foreground'>
-                  <img src='/train.io_image.jpeg' alt="Train.io" className="w-1/2 h-auto border-solid border-2 rounded-md" />
-                  <p>Developed an online training platform featuring an artifical intelligence powered workout creator. 
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Django</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">OpenAI API</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Heroku</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/train.io_image.jpeg' alt="Train.io" className="w-full h-auto border-solid border-2 rounded-md" />
+                  <p className='text-sm'>Developed an online training platform featuring an artifical intelligence powered workout creator. 
                   <span className='hidden md:inline'> Features a comprehensive workout journal and progress visalization. Real time messaging for trainer - client interaction.</span>
                   </p>
               </CardContent>
@@ -136,41 +217,86 @@ const RightSide = () => {
                 <a href="https://trainio-liart.vercel.app/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
                 Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                 </a>
-                <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
               </CardFooter>
           </Card>
           </BackgroundGradient>
           <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
-          <Card className='border-0 rounded-[22px]'>
-              <CardHeader>
-                  <CardTitle>PyCloud</CardTitle>
-                  <CardDescription>Learn python, challange others, cloud coding platform.</CardDescription>
-              </CardHeader>
-              <CardContent className=''>
-              <img src='/PyCloud_img.png' alt="Train.io" className="w-1/2 h-auto border-solid border-2 rounded-md" />
-              </CardContent>
-              <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
-                <div className='flex items-center gap-2'>
-                Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </div>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
-              </CardFooter>
-          </Card>
-          </BackgroundGradient>
-          <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
-          <Card className='border-0 rounded-[22px]'>
-              <CardHeader>
+          <Card className='border-0 rounded-[22px]'> 
+              <CardHeader className='pb-2'>
                   <CardTitle>BestTech</CardTitle>
-                  <CardDescription>Make the best purchase.</CardDescription>
+                  <CardDescription>Make the best purchase</CardDescription>
               </CardHeader>
-              <CardContent className=''>
-              <img src='/BestTech.png' alt="Train.io" className="w-1/2 h-auto border-2 border-solid border-2 rounded-md" />
+              <CardContent className='flex flex-col gap-4 text-muted-foreground'>
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Java</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">SpringBoot</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">MySQL</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Vercel</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/BestTech.png' alt="besttech image" className="w-full h-auto border-solid border-2 rounded-md" />
+                  <p className='text-sm'>Designed a modern eCommerce website that features a Machine learning product recommendation system and an admin dashboard. 
+                  </p>
               </CardContent>
               <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
-                <div className='flex items-center gap-2'>
+                <a href="https://besttech-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
                 Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </div>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
+                </a>
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
+              </CardFooter>
+          </Card>
+          </BackgroundGradient>
+          <BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900">
+          <Card className='border-0 rounded-[22px]'> 
+              <CardHeader className='pb-2'>
+                  <CardTitle>Discourse</CardTitle>
+                  <CardDescription>Chat Anywhere, Anytime</CardDescription>
+              </CardHeader>
+              <CardContent className='flex flex-col gap-4 text-muted-foreground'>
+                  <div>
+                    <ul class="flex flex-wrap" aria-label="Technologies used:">
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Django</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Websockets</div>
+                      </li>
+                      <li class="mr-1.5 mt-2">
+                        <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JWT Authentication</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src='/discourse.png' alt="Discouse image" className="w-full h-auto border-solid border-2 rounded-md" />
+                    <p className='text-sm'>Built a real time messaging app with Django channels, websockets, and React. 
+                  </p>
+              </CardContent>
+              <CardFooter className='flex justify-end items-center gap-6 text-muted-foreground'>
+                <a href="https://discourse-chat-app-frontend.vercel.app/home/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-cyan-600 transition-colors duration-500'>
+                Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
+                <a href='https://github.com/jhirschv' target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon size='xl' className='hover:text-cyan-600 transition-colors duration-500' icon={faGithub} />
+                </a>
               </CardFooter>
           </Card>
           </BackgroundGradient>

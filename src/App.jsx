@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const App = () => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="flex flex-col lg:flex-row w-full">
+      <div className="flex flex-col lg:flex-row w-full bg-card">
         <LeftSide />
         <RightSide />
       </div>
