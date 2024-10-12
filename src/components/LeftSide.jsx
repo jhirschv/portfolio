@@ -87,7 +87,7 @@ const LeftSide = () => {
           </DropdownMenuContent>
         </DropdownMenu> */}
         <a
-          href="/John Hirsch Developer.pdf"
+          href="/John_Hirsch_Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
